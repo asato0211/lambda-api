@@ -1,2 +1,2 @@
 build:
-	@docker run --rm -v $(CURDIR):/var/task amazon/aws-sam-cli-build-image-ruby2.7  ./build.sh
+	@docker run --rm -v $(CURDIR):/var/task public.ecr.aws/sam/build-ruby3.2  ./build.sh
